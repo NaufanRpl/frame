@@ -1,0 +1,85 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body,html{
+    background-image: url('gambar/Untitled.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+input {
+    background-color: orangered;
+    border-radius: 5px;
+    display:ruby-base;
+    border: 2.5px solid rgb(255, 25, 0);
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 5.5px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 8px;
+}
+
+input:focus{
+    background-color: chocolate;
+
+}
+
+input#ig{
+    background-image: url(./gambar/ig.png);
+    padding: 5px 5px 5px 30px;
+}
+input#tds{
+    background-image: url(./gambar/icon\ thread.png);
+    padding: 5px 5px 5px 30px;
+}
+input#fb{
+    background-image: url(./gambar/fb.png);
+    padding: 5px 5px 5px 30px;
+}
+input#twt{
+    background-image: url(./gambar/twitter.png);
+    padding: 5px 5px 5px 30px;
+}
+input#ttk{
+    background-image: url(./gambar/tiktok\ icon.png);
+    padding: 5px 5px 5px 30px;
+}
+
+.select-custom{
+    color: white;
+    background-color:orangered;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: left;
+}
+
+h4{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 115%;
+}
+
+.container {
+    text-align: center;
+}
+
+.center-image {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto; 
+}
